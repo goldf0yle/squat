@@ -1,2 +1,18 @@
-# 스쿼트
-유기견 보호소 기부를 위한 홈트레이닝 앱
+# squatdog
+드림인 스쿼트 팀
+
+# ADS
+1. (홈트레이닝을 하는 20-30대 여성)을 위한, 
+2. (운동 동기부여)의 
+3. (유기견 키우기 게임과 유기견 단체 기부의 및 벌금의 차별점을 가진) 앱
+
+# Team Members
+1. 김웅비, UX, 운동은 너무 싫지만 강아지는 너무 좋아
+<<<<<<< HEAD
+2. 이규진
+3. 강지원: Coding, "후회하기 싫으면 그렇게 살지 말고, 그렇게 살거면 후회하지 마라"
+
+# Prototype
+|1.캐릭터생성|2.스쿼트 측정|3.운동 관리|
+|---|---|---|
+|![4D6FBE6B-F551-428A-90B4-4A83B248A9ED_4_5005_c](https://user-images.githubusercontent.com/67060797/92296191-e5417480-ef6c-11ea-827a-0644ec434c35.jpeg)|![sqaut페이지](https://user-images.githubusercontent.com/69199411/92296213-13bf4f80-ef6d-11ea-82c7-8fad2a6d31e2.jpeg)|![sqaut페이지](https://user-images.githubusercontent.com/69199411/92296213-13bf4f80-ef6d-11ea-82c7-8fad2a6d31e2.jpeg)|
