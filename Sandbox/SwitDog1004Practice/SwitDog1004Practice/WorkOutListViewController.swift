@@ -8,7 +8,8 @@
 import UIKit
 
 class WorkOutListViewController: UITableViewController {
-
+    let WorkOutList : [String] = ["squat", "running", "bicycle","swimming","breathing","soccer"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,18 +29,18 @@ class WorkOutListViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 10
+        return 6
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "WorkOut", for: indexPath)
 
-        // Configure the cell...
-
+        cell.textLabel?.text = "\(WorkOutList[indexPath.row])"
+        cell.detailTextLabel?.text = "\(WorkOutList[indexPath.row])"
+        
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
