@@ -15,6 +15,7 @@
 		D0BA281A252960B800679CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BA2818252960B800679CF0 /* LaunchScreen.storyboard */; };
 		D0BA2825252960B800679CF0 /* SwitDog1004PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA2824252960B800679CF0 /* SwitDog1004PracticeTests.swift */; };
 		D0BA2830252960B900679CF0 /* SwitDog1004PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA282F252960B900679CF0 /* SwitDog1004PracticeUITests.swift */; };
+		D0BA2841252961D400679CF0 /* WorkOutListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA2840252961D400679CF0 /* WorkOutListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D0BA282B252960B900679CF0 /* SwitDog1004PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitDog1004PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BA282F252960B900679CF0 /* SwitDog1004PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitDog1004PracticeUITests.swift; sourceTree = "<group>"; };
 		D0BA2831252960B900679CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA2840252961D400679CF0 /* WorkOutListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D0BA280F252960B600679CF0 /* SceneDelegate.swift */,
 				D0BA2811252960B600679CF0 /* ViewController.swift */,
 				D0BA2813252960B600679CF0 /* Main.storyboard */,
+				D0BA2840252961D400679CF0 /* WorkOutListViewController.swift */,
 				D0BA2816252960B800679CF0 /* Assets.xcassets */,
 				D0BA2818252960B800679CF0 /* LaunchScreen.storyboard */,
 				D0BA281B252960B800679CF0 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BA2841252961D400679CF0 /* WorkOutListViewController.swift in Sources */,
 				D0BA2812252960B600679CF0 /* ViewController.swift in Sources */,
 				D0BA280E252960B600679CF0 /* AppDelegate.swift in Sources */,
 				D0BA2810252960B600679CF0 /* SceneDelegate.swift in Sources */,
