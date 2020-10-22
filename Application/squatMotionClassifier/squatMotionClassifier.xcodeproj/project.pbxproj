@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD31925B254042530011D6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925A254042530011D6D5 /* AppDelegate.swift */; };
+		FD31925D254042530011D6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925C254042530011D6D5 /* SceneDelegate.swift */; };
+		FD31925F254042530011D6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925E254042530011D6D5 /* ViewController.swift */; };
+		FD319262254042530011D6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD319260254042530011D6D5 /* Main.storyboard */; };
+		FD319264254042550011D6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD319263254042550011D6D5 /* Assets.xcassets */; };
+		FD319267254042550011D6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD319265254042550011D6D5 /* LaunchScreen.storyboard */; };
+		FD319272254042550011D6D5 /* squatMotionClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD319271254042550011D6D5 /* squatMotionClassifierTests.swift */; };
+		FD31927D254042550011D6D5 /* squatMotionClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31927C254042550011D6D5 /* squatMotionClassifierUITests.swift */; };
+		FD31928E254046590011D6D5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31928D254046590011D6D5 /* CameraViewController.swift */; };
+		FDD6F913254144550012D58F /* MyImageClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FDD6F912254144540012D58F /* MyImageClassifier 1.mlmodel */; };
+		FDD6F919254152750012D58F /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6F918254152750012D58F /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD31926E254042550011D6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD31924F254042530011D6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD319256254042530011D6D5;
+			remoteInfo = squatMotionClassifier;
+		};
+		FD319279254042550011D6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD31924F254042530011D6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD319256254042530011D6D5;
+			remoteInfo = squatMotionClassifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD319257254042530011D6D5 /* squatMotionClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squatMotionClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD31925A254042530011D6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD31925C254042530011D6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD31925E254042530011D6D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD319261254042530011D6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD319263254042550011D6D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD319266254042550011D6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD319268254042550011D6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD31926D254042550011D6D5 /* squatMotionClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = squatMotionClassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD319271254042550011D6D5 /* squatMotionClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squatMotionClassifierTests.swift; sourceTree = "<group>"; };
+		FD319273254042550011D6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD319278254042550011D6D5 /* squatMotionClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = squatMotionClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD31927C254042550011D6D5 /* squatMotionClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squatMotionClassifierUITests.swift; sourceTree = "<group>"; };
+		FD31927E254042550011D6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD31928D254046590011D6D5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FDD6F912254144540012D58F /* MyImageClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyImageClassifier 1.mlmodel"; sourceTree = "<group>"; };
+		FDD6F918254152750012D58F /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD319254254042530011D6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD31926A254042550011D6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD319275254042550011D6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD31924E254042530011D6D5 = {
+			isa = PBXGroup;
+			children = (
+				FD319259254042530011D6D5 /* squatMotionClassifier */,
+				FD319270254042550011D6D5 /* squatMotionClassifierTests */,
+				FD31927B254042550011D6D5 /* squatMotionClassifierUITests */,
+				FD319258254042530011D6D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD319258254042530011D6D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD319257254042530011D6D5 /* squatMotionClassifier.app */,
+				FD31926D254042550011D6D5 /* squatMotionClassifierTests.xctest */,
+				FD319278254042550011D6D5 /* squatMotionClassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD319259254042530011D6D5 /* squatMotionClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				FD31925A254042530011D6D5 /* AppDelegate.swift */,
+				FD31925C254042530011D6D5 /* SceneDelegate.swift */,
+				FD31925E254042530011D6D5 /* ViewController.swift */,
+				FD31928D254046590011D6D5 /* CameraViewController.swift */,
+				FDD6F918254152750012D58F /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				FD319260254042530011D6D5 /* Main.storyboard */,
+				FDD6F912254144540012D58F /* MyImageClassifier 1.mlmodel */,
+				FD319263254042550011D6D5 /* Assets.xcassets */,
+				FD319265254042550011D6D5 /* LaunchScreen.storyboard */,
+				FD319268254042550011D6D5 /* Info.plist */,
+			);
+			path = squatMotionClassifier;
+			sourceTree = "<group>";
+		};
+		FD319270254042550011D6D5 /* squatMotionClassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD319271254042550011D6D5 /* squatMotionClassifierTests.swift */,
+				FD319273254042550011D6D5 /* Info.plist */,
+			);
+			path = squatMotionClassifierTests;
+			sourceTree = "<group>";
+		};
+		FD31927B254042550011D6D5 /* squatMotionClassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD31927C254042550011D6D5 /* squatMotionClassifierUITests.swift */,
+				FD31927E254042550011D6D5 /* Info.plist */,
+			);
+			path = squatMotionClassifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD319256254042530011D6D5 /* squatMotionClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD319281254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifier" */;
+			buildPhases = (
+				FD319253254042530011D6D5 /* Sources */,
+				FD319254254042530011D6D5 /* Frameworks */,
+				FD319255254042530011D6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = squatMotionClassifier;
+			productName = squatMotionClassifier;
+			productReference = FD319257254042530011D6D5 /* squatMotionClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD31926C254042550011D6D5 /* squatMotionClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD319284254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifierTests" */;
+			buildPhases = (
+				FD319269254042550011D6D5 /* Sources */,
+				FD31926A254042550011D6D5 /* Frameworks */,
+				FD31926B254042550011D6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD31926F254042550011D6D5 /* PBXTargetDependency */,
+			);
+			name = squatMotionClassifierTests;
+			productName = squatMotionClassifierTests;
+			productReference = FD31926D254042550011D6D5 /* squatMotionClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD319277254042550011D6D5 /* squatMotionClassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD319287254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifierUITests" */;
+			buildPhases = (
+				FD319274254042550011D6D5 /* Sources */,
+				FD319275254042550011D6D5 /* Frameworks */,
+				FD319276254042550011D6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD31927A254042550011D6D5 /* PBXTargetDependency */,
+			);
+			name = squatMotionClassifierUITests;
+			productName = squatMotionClassifierUITests;
+			productReference = FD319278254042550011D6D5 /* squatMotionClassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD31924F254042530011D6D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FD319256254042530011D6D5 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FD31926C254042550011D6D5 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FD319256254042530011D6D5;
+					};
+					FD319277254042550011D6D5 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FD319256254042530011D6D5;
+					};
+				};
+			};
+			buildConfigurationList = FD319252254042530011D6D5 /* Build configuration list for PBXProject "squatMotionClassifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD31924E254042530011D6D5;
+			productRefGroup = FD319258254042530011D6D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD319256254042530011D6D5 /* squatMotionClassifier */,
+				FD31926C254042550011D6D5 /* squatMotionClassifierTests */,
+				FD319277254042550011D6D5 /* squatMotionClassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD319255254042530011D6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD319267254042550011D6D5 /* LaunchScreen.storyboard in Resources */,
+				FD319264254042550011D6D5 /* Assets.xcassets in Resources */,
+				FD319262254042530011D6D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD31926B254042550011D6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD319276254042550011D6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD319253254042530011D6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD31925F254042530011D6D5 /* ViewController.swift in Sources */,
+				FDD6F913254144550012D58F /* MyImageClassifier 1.mlmodel in Sources */,
+				FD31928E254046590011D6D5 /* CameraViewController.swift in Sources */,
+				FD31925B254042530011D6D5 /* AppDelegate.swift in Sources */,
+				FDD6F919254152750012D58F /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				FD31925D254042530011D6D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD319269254042550011D6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD319272254042550011D6D5 /* squatMotionClassifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD319274254042550011D6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD31927D254042550011D6D5 /* squatMotionClassifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD31926F254042550011D6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD319256254042530011D6D5 /* squatMotionClassifier */;
+			targetProxy = FD31926E254042550011D6D5 /* PBXContainerItemProxy */;
+		};
+		FD31927A254042550011D6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD319256254042530011D6D5 /* squatMotionClassifier */;
+			targetProxy = FD319279254042550011D6D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD319260254042530011D6D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD319261254042530011D6D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD319265254042550011D6D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD319266254042550011D6D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD31927F254042550011D6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD319280254042550011D6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD319282254042550011D6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL66B9H378;
+				INFOPLIST_FILE = squatMotionClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = melobron.squatMotionClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD319283254042550011D6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL66B9H378;
+				INFOPLIST_FILE = squatMotionClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = melobron.squatMotionClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD319285254042550011D6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL66B9H378;
+				INFOPLIST_FILE = squatMotionClassifierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = melobron.squatMotionClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/squatMotionClassifier.app/squatMotionClassifier";
+			};
+			name = Debug;
+		};
+		FD319286254042550011D6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL66B9H378;
+				INFOPLIST_FILE = squatMotionClassifierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = melobron.squatMotionClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/squatMotionClassifier.app/squatMotionClassifier";
+			};
+			name = Release;
+		};
+		FD319288254042550011D6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL66B9H378;
+				INFOPLIST_FILE = squatMotionClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = melobron.squatMotionClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = squatMotionClassifier;
+			};
+			name = Debug;
+		};
+		FD319289254042550011D6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL66B9H378;
+				INFOPLIST_FILE = squatMotionClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = melobron.squatMotionClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = squatMotionClassifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD319252254042530011D6D5 /* Build configuration list for PBXProject "squatMotionClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD31927F254042550011D6D5 /* Debug */,
+				FD319280254042550011D6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD319281254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD319282254042550011D6D5 /* Debug */,
+				FD319283254042550011D6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD319284254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD319285254042550011D6D5 /* Debug */,
+				FD319286254042550011D6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD319287254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD319288254042550011D6D5 /* Debug */,
+				FD319289254042550011D6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD31924F254042530011D6D5 /* Project object */;
+}

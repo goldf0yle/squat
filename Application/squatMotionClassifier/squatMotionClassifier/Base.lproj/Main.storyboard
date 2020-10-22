@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="squatMotionClassifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="k1c-13-dOG">
+                                <rect key="frame" x="20" y="261" width="374" height="374"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="374" id="DYw-Tl-WGo"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4Y-T2-2fY">
+                                <rect key="frame" x="145" y="655" width="124" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Lets Start"/>
+                                <connections>
+                                    <segue destination="EHs-Ex-jOI" kind="presentation" id="Q0G-8b-Q8q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="k1c-13-dOG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2kD-uh-Oqs"/>
+                            <constraint firstItem="k1c-13-dOG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Mdl-if-oAI"/>
+                            <constraint firstItem="k1c-13-dOG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="arM-LQ-10Y"/>
+                            <constraint firstItem="t4Y-T2-2fY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ioK-TS-j2V"/>
+                            <constraint firstItem="t4Y-T2-2fY" firstAttribute="top" secondItem="k1c-13-dOG" secondAttribute="bottom" constant="20" id="xHs-8G-Eq4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k1c-13-dOG" secondAttribute="trailing" constant="20" id="yYP-dn-d8p"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="87.723214285714278"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="y6Q-gS-PgJ">
+            <objects>
+                <viewController id="EHs-Ex-jOI" customClass="CameraViewController" customModule="squatMotionClassifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zay-U4-dbc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4A3-pD-Fog">
+                                <rect key="frame" x="20" y="234" width="374" height="374"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="374" id="d97-lS-hTC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvq-BA-tQW">
+                                <rect key="frame" x="122" y="166" width="170" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Start Camera"/>
+                                <connections>
+                                    <action selector="StartCamera:" destination="EHs-Ex-jOI" eventType="touchUpInside" id="uff-r6-a5H"/>
+                                    <action selector="takePicture" destination="EHs-Ex-jOI" eventType="touchUpInside" id="FJF-AT-Sof"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boj-tZ-YXk">
+                                <rect key="frame" x="149" y="628" width="116" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="I'm Done"/>
+                                <connections>
+                                    <action selector="GoBack:" destination="EHs-Ex-jOI" eventType="touchUpInside" id="DPb-Nh-qk5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrb-dM-uDK">
+                                <rect key="frame" x="120" y="696" width="174" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gka-Sl-xmE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mrb-dM-uDK" firstAttribute="top" secondItem="Boj-tZ-YXk" secondAttribute="bottom" constant="20" id="1fT-eq-AXH"/>
+                            <constraint firstItem="4A3-pD-Fog" firstAttribute="top" secondItem="tvq-BA-tQW" secondAttribute="bottom" constant="20" id="2dP-Tp-heP"/>
+                            <constraint firstItem="4A3-pD-Fog" firstAttribute="centerY" secondItem="Zay-U4-dbc" secondAttribute="centerY" id="A1a-eX-uf9"/>
+                            <constraint firstItem="mrb-dM-uDK" firstAttribute="centerX" secondItem="Zay-U4-dbc" secondAttribute="centerX" id="HdL-7L-col"/>
+                            <constraint firstItem="tvq-BA-tQW" firstAttribute="centerX" secondItem="Zay-U4-dbc" secondAttribute="centerX" id="YQX-bE-gAA"/>
+                            <constraint firstItem="Boj-tZ-YXk" firstAttribute="centerX" secondItem="Zay-U4-dbc" secondAttribute="centerX" id="Zwq-F6-bDe"/>
+                            <constraint firstItem="Boj-tZ-YXk" firstAttribute="top" secondItem="4A3-pD-Fog" secondAttribute="bottom" constant="20" id="cIb-Y8-Z3N"/>
+                            <constraint firstItem="4A3-pD-Fog" firstAttribute="centerX" secondItem="Zay-U4-dbc" secondAttribute="centerX" id="eNF-hc-N4Q"/>
+                            <constraint firstItem="gka-Sl-xmE" firstAttribute="trailing" secondItem="4A3-pD-Fog" secondAttribute="trailing" constant="20" id="eXZ-4P-TP9"/>
+                            <constraint firstItem="4A3-pD-Fog" firstAttribute="leading" secondItem="gka-Sl-xmE" secondAttribute="leading" constant="20" id="tCu-zU-5Ut"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="CameraView" destination="4A3-pD-Fog" id="TgQ-dI-XCG"/>
+                        <outlet property="classificationLabel" destination="mrb-dM-uDK" id="hvT-LQ-0pJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="943-As-jFR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.68115942028987" y="87.723214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dog" width="138.66667175292969" height="157.66667175292969"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
