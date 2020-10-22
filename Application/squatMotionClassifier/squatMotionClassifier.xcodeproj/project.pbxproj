@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0DCC63B2541795700BCCA20 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DCC63A2541795700BCCA20 /* StoreKit.framework */; };
 		FD31925B254042530011D6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925A254042530011D6D5 /* AppDelegate.swift */; };
 		FD31925D254042530011D6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925C254042530011D6D5 /* SceneDelegate.swift */; };
 		FD31925F254042530011D6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925E254042530011D6D5 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0DCC63A2541795700BCCA20 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		FD319257254042530011D6D5 /* squatMotionClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squatMotionClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD31925A254042530011D6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD31925C254042530011D6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DCC63B2541795700BCCA20 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0DCC6392541795700BCCA20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCC63A2541795700BCCA20 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD31924E254042530011D6D5 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +100,7 @@
 				FD319270254042550011D6D5 /* squatMotionClassifierTests */,
 				FD31927B254042550011D6D5 /* squatMotionClassifierUITests */,
 				FD319258254042530011D6D5 /* Products */,
+				D0DCC6392541795700BCCA20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -449,13 +461,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RL66B9H378;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
 				INFOPLIST_FILE = squatMotionClassifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = melobron.squatMotionClassifier;
+				PRODUCT_BUNDLE_IDENTIFIER = melobron.swithdog.dreamin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,13 +480,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RL66B9H378;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
 				INFOPLIST_FILE = squatMotionClassifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = melobron.squatMotionClassifier;
+				PRODUCT_BUNDLE_IDENTIFIER = melobron.swithdog.dreamin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
