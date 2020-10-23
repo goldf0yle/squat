@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--HOME-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwithDog" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,13 +18,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="PLJ-X9-TUk"/>
+                    <tabBarItem key="tabBarItem" title="HOME" id="PLJ-X9-TUk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="81.696428571428569"/>
         </scene>
-        <!--Item-->
+        <!--More-->
         <scene sceneID="RM9-3e-aNa">
             <objects>
                 <viewController id="AU3-Vy-sSx" customClass="MoreTap" customModule="SwithDog" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,13 +34,13 @@
                         <viewLayoutGuide key="safeArea" id="dUu-IP-TOf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bc2-3V-xfk"/>
+                    <tabBarItem key="tabBarItem" title="More" id="bc2-3V-xfk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HIi-yA-FNm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1048" y="1449"/>
         </scene>
-        <!--Item-->
+        <!--MY TAP-->
         <scene sceneID="qIY-Bq-ed0">
             <objects>
                 <viewController id="fY1-kg-yTe" customClass="MyTap" customModule="SwithDog" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,7 +50,7 @@
                         <viewLayoutGuide key="safeArea" id="anz-gI-cd5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="0CO-t9-EfO"/>
+                    <tabBarItem key="tabBarItem" title="MY TAP" id="0CO-t9-EfO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suX-MN-rEX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

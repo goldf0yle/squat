@@ -107,8 +107,8 @@
 				D0E85C93254273BF00BAD694 /* SceneDelegate.swift */,
 				D0E85C95254273BF00BAD694 /* ViewController.swift */,
 				D0E85C97254273BF00BAD694 /* Main.storyboard */,
-				D0E85CC4254274CF00BAD694 /* MyTap.swift */,
-				D0E85CC9254274E400BAD694 /* MoreTap.swift */,
+				D0E85CD2254275FC00BAD694 /* MyTap */,
+				D0E85CCE254275D800BAD694 /* MoreTap */,
 				D0E85C9A254273C000BAD694 /* Assets.xcassets */,
 				D0E85C9C254273C000BAD694 /* LaunchScreen.storyboard */,
 				D0E85C9F254273C000BAD694 /* Info.plist */,
@@ -132,6 +132,22 @@
 				D0E85CB5254273C000BAD694 /* Info.plist */,
 			);
 			path = SwithDogUITests;
+			sourceTree = "<group>";
+		};
+		D0E85CCE254275D800BAD694 /* MoreTap */ = {
+			isa = PBXGroup;
+			children = (
+				D0E85CC9254274E400BAD694 /* MoreTap.swift */,
+			);
+			path = MoreTap;
+			sourceTree = "<group>";
+		};
+		D0E85CD2254275FC00BAD694 /* MyTap */ = {
+			isa = PBXGroup;
+			children = (
+				D0E85CC4254274CF00BAD694 /* MyTap.swift */,
+			);
+			path = MyTap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
