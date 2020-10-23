@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E85C92254273BF00BAD694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E85C91254273BF00BAD694 /* AppDelegate.swift */; };
+		D0E85C94254273BF00BAD694 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E85C93254273BF00BAD694 /* SceneDelegate.swift */; };
+		D0E85C96254273BF00BAD694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E85C95254273BF00BAD694 /* ViewController.swift */; };
+		D0E85C99254273BF00BAD694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E85C97254273BF00BAD694 /* Main.storyboard */; };
+		D0E85C9B254273C000BAD694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E85C9A254273C000BAD694 /* Assets.xcassets */; };
+		D0E85C9E254273C000BAD694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E85C9C254273C000BAD694 /* LaunchScreen.storyboard */; };
+		D0E85CA9254273C000BAD694 /* SwithDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E85CA8254273C000BAD694 /* SwithDogTests.swift */; };
+		D0E85CB4254273C000BAD694 /* SwithDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E85CB3254273C000BAD694 /* SwithDogUITests.swift */; };
+		D0E85CC5254274CF00BAD694 /* MyTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E85CC4254274CF00BAD694 /* MyTap.swift */; };
+		D0E85CCA254274E400BAD694 /* MoreTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E85CC9254274E400BAD694 /* MoreTap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E85CA5254273C000BAD694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E85C86254273BF00BAD694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E85C8D254273BF00BAD694;
+			remoteInfo = SwithDog;
+		};
+		D0E85CB0254273C000BAD694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E85C86254273BF00BAD694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E85C8D254273BF00BAD694;
+			remoteInfo = SwithDog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0E85C8E254273BF00BAD694 /* SwithDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwithDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E85C91254273BF00BAD694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0E85C93254273BF00BAD694 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0E85C95254273BF00BAD694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0E85C98254273BF00BAD694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0E85C9A254273C000BAD694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E85C9D254273C000BAD694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0E85C9F254273C000BAD694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E85CA4254273C000BAD694 /* SwithDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwithDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E85CA8254273C000BAD694 /* SwithDogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwithDogTests.swift; sourceTree = "<group>"; };
+		D0E85CAA254273C000BAD694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E85CAF254273C000BAD694 /* SwithDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwithDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E85CB3254273C000BAD694 /* SwithDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwithDogUITests.swift; sourceTree = "<group>"; };
+		D0E85CB5254273C000BAD694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E85CC4254274CF00BAD694 /* MyTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTap.swift; sourceTree = "<group>"; };
+		D0E85CC9254274E400BAD694 /* MoreTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E85C8B254273BF00BAD694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E85CA1254273C000BAD694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E85CAC254273C000BAD694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E85C85254273BF00BAD694 = {
+			isa = PBXGroup;
+			children = (
+				D0E85C90254273BF00BAD694 /* SwithDog */,
+				D0E85CA7254273C000BAD694 /* SwithDogTests */,
+				D0E85CB2254273C000BAD694 /* SwithDogUITests */,
+				D0E85C8F254273BF00BAD694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E85C8F254273BF00BAD694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E85C8E254273BF00BAD694 /* SwithDog.app */,
+				D0E85CA4254273C000BAD694 /* SwithDogTests.xctest */,
+				D0E85CAF254273C000BAD694 /* SwithDogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E85C90254273BF00BAD694 /* SwithDog */ = {
+			isa = PBXGroup;
+			children = (
+				D0E85C91254273BF00BAD694 /* AppDelegate.swift */,
+				D0E85C93254273BF00BAD694 /* SceneDelegate.swift */,
+				D0E85C95254273BF00BAD694 /* ViewController.swift */,
+				D0E85C97254273BF00BAD694 /* Main.storyboard */,
+				D0E85CC4254274CF00BAD694 /* MyTap.swift */,
+				D0E85CC9254274E400BAD694 /* MoreTap.swift */,
+				D0E85C9A254273C000BAD694 /* Assets.xcassets */,
+				D0E85C9C254273C000BAD694 /* LaunchScreen.storyboard */,
+				D0E85C9F254273C000BAD694 /* Info.plist */,
+			);
+			path = SwithDog;
+			sourceTree = "<group>";
+		};
+		D0E85CA7254273C000BAD694 /* SwithDogTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E85CA8254273C000BAD694 /* SwithDogTests.swift */,
+				D0E85CAA254273C000BAD694 /* Info.plist */,
+			);
+			path = SwithDogTests;
+			sourceTree = "<group>";
+		};
+		D0E85CB2254273C000BAD694 /* SwithDogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E85CB3254273C000BAD694 /* SwithDogUITests.swift */,
+				D0E85CB5254273C000BAD694 /* Info.plist */,
+			);
+			path = SwithDogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E85C8D254273BF00BAD694 /* SwithDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E85CB8254273C000BAD694 /* Build configuration list for PBXNativeTarget "SwithDog" */;
+			buildPhases = (
+				D0E85C8A254273BF00BAD694 /* Sources */,
+				D0E85C8B254273BF00BAD694 /* Frameworks */,
+				D0E85C8C254273BF00BAD694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwithDog;
+			productName = SwithDog;
+			productReference = D0E85C8E254273BF00BAD694 /* SwithDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E85CA3254273C000BAD694 /* SwithDogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E85CBB254273C000BAD694 /* Build configuration list for PBXNativeTarget "SwithDogTests" */;
+			buildPhases = (
+				D0E85CA0254273C000BAD694 /* Sources */,
+				D0E85CA1254273C000BAD694 /* Frameworks */,
+				D0E85CA2254273C000BAD694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E85CA6254273C000BAD694 /* PBXTargetDependency */,
+			);
+			name = SwithDogTests;
+			productName = SwithDogTests;
+			productReference = D0E85CA4254273C000BAD694 /* SwithDogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0E85CAE254273C000BAD694 /* SwithDogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E85CBE254273C000BAD694 /* Build configuration list for PBXNativeTarget "SwithDogUITests" */;
+			buildPhases = (
+				D0E85CAB254273C000BAD694 /* Sources */,
+				D0E85CAC254273C000BAD694 /* Frameworks */,
+				D0E85CAD254273C000BAD694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E85CB1254273C000BAD694 /* PBXTargetDependency */,
+			);
+			name = SwithDogUITests;
+			productName = SwithDogUITests;
+			productReference = D0E85CAF254273C000BAD694 /* SwithDogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E85C86254273BF00BAD694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D0E85C8D254273BF00BAD694 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D0E85CA3254273C000BAD694 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D0E85C8D254273BF00BAD694;
+					};
+					D0E85CAE254273C000BAD694 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D0E85C8D254273BF00BAD694;
+					};
+				};
+			};
+			buildConfigurationList = D0E85C89254273BF00BAD694 /* Build configuration list for PBXProject "SwithDog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E85C85254273BF00BAD694;
+			productRefGroup = D0E85C8F254273BF00BAD694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E85C8D254273BF00BAD694 /* SwithDog */,
+				D0E85CA3254273C000BAD694 /* SwithDogTests */,
+				D0E85CAE254273C000BAD694 /* SwithDogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E85C8C254273BF00BAD694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E85C9E254273C000BAD694 /* LaunchScreen.storyboard in Resources */,
+				D0E85C9B254273C000BAD694 /* Assets.xcassets in Resources */,
+				D0E85C99254273BF00BAD694 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E85CA2254273C000BAD694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E85CAD254273C000BAD694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E85C8A254273BF00BAD694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E85C96254273BF00BAD694 /* ViewController.swift in Sources */,
+				D0E85CCA254274E400BAD694 /* MoreTap.swift in Sources */,
+				D0E85CC5254274CF00BAD694 /* MyTap.swift in Sources */,
+				D0E85C92254273BF00BAD694 /* AppDelegate.swift in Sources */,
+				D0E85C94254273BF00BAD694 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E85CA0254273C000BAD694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E85CA9254273C000BAD694 /* SwithDogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E85CAB254273C000BAD694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E85CB4254273C000BAD694 /* SwithDogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E85CA6254273C000BAD694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E85C8D254273BF00BAD694 /* SwithDog */;
+			targetProxy = D0E85CA5254273C000BAD694 /* PBXContainerItemProxy */;
+		};
+		D0E85CB1254273C000BAD694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E85C8D254273BF00BAD694 /* SwithDog */;
+			targetProxy = D0E85CB0254273C000BAD694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E85C97254273BF00BAD694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E85C98254273BF00BAD694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E85C9C254273C000BAD694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E85C9D254273C000BAD694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E85CB6254273C000BAD694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0E85CB7254273C000BAD694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E85CB9254273C000BAD694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				INFOPLIST_FILE = SwithDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Woongbi.SwithDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E85CBA254273C000BAD694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				INFOPLIST_FILE = SwithDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Woongbi.SwithDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0E85CBC254273C000BAD694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				INFOPLIST_FILE = SwithDogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Woongbi.SwithDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwithDog.app/SwithDog";
+			};
+			name = Debug;
+		};
+		D0E85CBD254273C000BAD694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				INFOPLIST_FILE = SwithDogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Woongbi.SwithDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwithDog.app/SwithDog";
+			};
+			name = Release;
+		};
+		D0E85CBF254273C000BAD694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				INFOPLIST_FILE = SwithDogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Woongbi.SwithDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwithDog;
+			};
+			name = Debug;
+		};
+		D0E85CC0254273C000BAD694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				INFOPLIST_FILE = SwithDogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Woongbi.SwithDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwithDog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E85C89254273BF00BAD694 /* Build configuration list for PBXProject "SwithDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E85CB6254273C000BAD694 /* Debug */,
+				D0E85CB7254273C000BAD694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E85CB8254273C000BAD694 /* Build configuration list for PBXNativeTarget "SwithDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E85CB9254273C000BAD694 /* Debug */,
+				D0E85CBA254273C000BAD694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E85CBB254273C000BAD694 /* Build configuration list for PBXNativeTarget "SwithDogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E85CBC254273C000BAD694 /* Debug */,
+				D0E85CBD254273C000BAD694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E85CBE254273C000BAD694 /* Build configuration list for PBXNativeTarget "SwithDogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E85CBF254273C000BAD694 /* Debug */,
+				D0E85CC0254273C000BAD694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E85C86254273BF00BAD694 /* Project object */;
+}

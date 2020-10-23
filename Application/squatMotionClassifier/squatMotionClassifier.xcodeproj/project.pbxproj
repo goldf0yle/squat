@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D0DCC63B2541795700BCCA20 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DCC63A2541795700BCCA20 /* StoreKit.framework */; };
+		D0DCC640254253F300BCCA20 /* myTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCC63F254253F300BCCA20 /* myTab.swift */; };
+		D0DCC645254255F000BCCA20 /* moreTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCC644254255F000BCCA20 /* moreTab.swift */; };
 		FD31925B254042530011D6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925A254042530011D6D5 /* AppDelegate.swift */; };
 		FD31925D254042530011D6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925C254042530011D6D5 /* SceneDelegate.swift */; };
 		FD31925F254042530011D6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31925E254042530011D6D5 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		D0DCC63A2541795700BCCA20 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D0DCC63F254253F300BCCA20 /* myTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTab.swift; sourceTree = "<group>"; };
+		D0DCC644254255F000BCCA20 /* moreTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreTab.swift; sourceTree = "<group>"; };
 		FD319257254042530011D6D5 /* squatMotionClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squatMotionClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD31925A254042530011D6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD31925C254042530011D6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				FD31925E254042530011D6D5 /* ViewController.swift */,
 				FD31928D254046590011D6D5 /* CameraViewController.swift */,
 				FDD6F918254152750012D58F /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				D0DCC63F254253F300BCCA20 /* myTab.swift */,
+				D0DCC644254255F000BCCA20 /* moreTab.swift */,
 				FD319260254042530011D6D5 /* Main.storyboard */,
 				FDD6F912254144540012D58F /* MyImageClassifier 1.mlmodel */,
 				FD319263254042550011D6D5 /* Assets.xcassets */,
@@ -156,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD319281254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifier" */;
 			buildPhases = (
+				CF6E68647DE2D81743C74725 /* [CP] Check Pods Manifest.lock */,
 				FD319253254042530011D6D5 /* Sources */,
 				FD319254254042530011D6D5 /* Frameworks */,
 				FD319255254042530011D6D5 /* Resources */,
+				864259601FA03245AE85B7A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD319284254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifierTests" */;
 			buildPhases = (
+				E56B02BD64355377E355D4ED /* [CP] Check Pods Manifest.lock */,
 				FD319269254042550011D6D5 /* Sources */,
 				FD31926A254042550011D6D5 /* Frameworks */,
 				FD31926B254042550011D6D5 /* Resources */,
@@ -191,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD319287254042550011D6D5 /* Build configuration list for PBXNativeTarget "squatMotionClassifierUITests" */;
 			buildPhases = (
+				CD748E68EE7590443292CB86 /* [CP] Check Pods Manifest.lock */,
 				FD319274254042550011D6D5 /* Sources */,
 				FD319275254042550011D6D5 /* Frameworks */,
 				FD319276254042550011D6D5 /* Resources */,
+				4509C61606D3D35EFF5AA530 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,12 +285,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4509C61606D3D35EFF5AA530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-squatMotionClassifier-squatMotionClassifierUITests/Pods-squatMotionClassifier-squatMotionClassifierUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-squatMotionClassifier-squatMotionClassifierUITests/Pods-squatMotionClassifier-squatMotionClassifierUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-squatMotionClassifier-squatMotionClassifierUITests/Pods-squatMotionClassifier-squatMotionClassifierUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		864259601FA03245AE85B7A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-squatMotionClassifier/Pods-squatMotionClassifier-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-squatMotionClassifier/Pods-squatMotionClassifier-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-squatMotionClassifier/Pods-squatMotionClassifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD748E68EE7590443292CB86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-squatMotionClassifier-squatMotionClassifierUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF6E68647DE2D81743C74725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-squatMotionClassifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E56B02BD64355377E355D4ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-squatMotionClassifierTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD319253254042530011D6D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FD31925F254042530011D6D5 /* ViewController.swift in Sources */,
+				D0DCC640254253F300BCCA20 /* myTab.swift in Sources */,
+				D0DCC645254255F000BCCA20 /* moreTab.swift in Sources */,
 				FDD6F913254144550012D58F /* MyImageClassifier 1.mlmodel in Sources */,
 				FD31928E254046590011D6D5 /* CameraViewController.swift in Sources */,
 				FD31925B254042530011D6D5 /* AppDelegate.swift in Sources */,

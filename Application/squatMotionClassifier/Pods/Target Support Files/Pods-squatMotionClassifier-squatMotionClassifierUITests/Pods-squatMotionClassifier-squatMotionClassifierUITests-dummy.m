@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_squatMotionClassifier_squatMotionClassifierUITests : NSObject
+@end
+@implementation PodsDummy_Pods_squatMotionClassifier_squatMotionClassifierUITests
+@end

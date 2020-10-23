@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sVL-Ve-Mfh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HOME-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="squatMotionClassifier" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,10 +42,38 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k1c-13-dOG" secondAttribute="trailing" constant="20" id="yYP-dn-d8p"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="HOME" id="hwV-3u-0eo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="87.723214285714278"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="87.723214285714278"/>
+        </scene>
+        <!--MY TAP-->
+        <scene sceneID="beO-ol-jZD">
+            <objects>
+                <viewController id="rug-22-EmK" customClass="myTab" customModule="squatMotionClassifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5z2-gH-Wrq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="boT-lm-mPF" customClass="UINavigationBar">
+                                <rect key="frame" x="0.0" y="118" width="414" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2zA-Au-n82"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="boT-lm-mPF" firstAttribute="top" secondItem="2zA-Au-n82" secondAttribute="top" id="2Zc-oD-Ljj"/>
+                            <constraint firstItem="2zA-Au-n82" firstAttribute="trailing" secondItem="boT-lm-mPF" secondAttribute="trailing" id="VRz-F8-gYo"/>
+                            <constraint firstItem="boT-lm-mPF" firstAttribute="leading" secondItem="2zA-Au-n82" secondAttribute="leading" id="v0I-kE-H6n"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MY TAP" id="Rdc-8K-zIP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sd1-KY-Klh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="805"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="y6Q-gS-PgJ">
@@ -107,7 +135,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="943-As-jFR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837.68115942028987" y="87.723214285714278"/>
+            <point key="canvasLocation" x="1747.826086956522" y="87.723214285714278"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="blb-tv-0Nc">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="sVL-Ve-Mfh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="67C-1d-50s">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="C56-xT-jle"/>
+                        <segue destination="rug-22-EmK" kind="relationship" relationship="viewControllers" id="zUu-5E-tDY"/>
+                        <segue destination="WiD-nK-GAz" kind="relationship" relationship="viewControllers" id="DPc-t0-bYK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vHU-Dy-aYA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="87.723214285714278"/>
+        </scene>
+        <!--MORE-->
+        <scene sceneID="K6u-hN-xO4">
+            <objects>
+                <viewController id="WiD-nK-GAz" customClass="moreTab" customModule="squatMotionClassifier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s6b-w5-T83">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="k45-GH-MpN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MORE" id="LLR-yt-y5W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFk-wO-2gL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="1503"/>
         </scene>
     </scenes>
     <resources>
